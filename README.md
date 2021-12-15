@@ -1,28 +1,17 @@
-![Typed Searcher]()
+<h1>Template</h1>
 
-https://www.youtube.com/watch?v=25kFcF54GNk
-
-<p align="center"> This is a search application... </p>  
-
-<p align="center"> icons </p>
+<p align="center"> This repository houses a custom template that incorporates React, Node, Webpack, Babel, TypeScript, SASS/SCSS, ESLint and Prettier. </p>  
 
 ## Description
 
-<p align="center"> This application was built specifically...</p>
-
-<p align="center"> Fonts are locally hosted with font-face </p>
-
-
-
-## Preview
-
-![Typed Searcher - GIF]()
-
-[Live Preview]()
-
-## Business Use Case
-
-- Individual/Business needs a modern user interface/application for customers to search desired items
+- React: JavaScript library for building user interfaces
+- Node: Asynchronous event-driven JavaScript runtime
+- Webpack: Module bundler
+- Babel: Transpiler
+- TypeScript: Superset of JavaScript with static typing
+- SASS/SCSS: Pre-processor scripting language for CSS, and its corresponding syntax 
+- ESLint: Static code analysis tool
+- Prettier: Code formatter
 
 ## Status
 
@@ -32,21 +21,27 @@ https://www.youtube.com/watch?v=25kFcF54GNk
 
 ## Download and Installation
 
-- Clone the repo: `git clone https://github.com/droman892/typed-searcher.git` 
+- Clone the repo: `git clone https://github.com/droman892/template.git` 
 ## Usage
 
-After the project files are downloaded, in the terminal, in the root folder, run `npm run build` to install the dependencies and update the `build` folder within the `client` directory.  Then, run `npm run dev` to start the application (refer to `localhost:3000` when editing the front-end, and `localhost:5000` when editing the back-end).
+After the project files are downloaded, in the terminal, in the root folder, run `npm run start` to install the dependencies and dev-dependencies.  The Webpack Dev Server will make the application available on the browser, opening it up on `localhost:1111`.
+
+Feel free to edit anything in the `src` folder to flesh out your application.  Use the scripts `npm run lint` to manually run ESLint, and   `npm run format` to manually run Prettier.
+
+When you're ready to deploy your application, run `npm run build`.  A `build` folder will be dynamically generated containing all of the bundled, minified code within the `src` folder.  You'll notice that running this command also opens up the Webpack Bundle Analyzer view on your browser; this interface lets you easily see the size of your production files.
+
+When you want to push updates to your online repository, upon running your commands to commit your updates, you'll notice that Husky will run the pre-commit command to execute both ESLint and Prettier before finalizing the commit.
 
 ## Roadmap
 
-This application is an on-going project, open to contributions and critique.  Functionality that would appropriately flesh out the application include the following:
-1) incorporate automated testing
-2) 
-3) 
+This template is an on-going project, open to contributions and critique.  Functionality that would appropriately flesh out the application include the following:
+1) testing capability
+2) backend server
+3) database access
 
 ## Bugs and Issues
 
-See a bug or an issue with this project? [Open a new issue](https://github.com/droman892/typed-searcher/issues) here on GitHub.
+See a bug or an issue with this project? [Open a new issue](https://github.com/droman892/template/issues) here on GitHub.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
