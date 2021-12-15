@@ -1,4 +1,4 @@
-<h1>Template</h1>
+<h1 align="center">Template</h1>
 
 <p align="center"> This repository houses a custom template that incorporates React, Node, Webpack, Babel, TypeScript, SASS/SCSS, ESLint and Prettier. </p>  
 
